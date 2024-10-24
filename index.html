@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <title>Create New Account</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login to Your Account</h1>
+        <form id="login-form">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter Username" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter Password" required>
+            
+            <button type="submit">Login</button>
+            <p id="error-message" style="color: red;"></p>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+<body>
+    <div class="signup-container">
+        <h2>Create New Account</h2>
+        <form id="signupForm">
+            <div class="input-box">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter Username" required>
+            </div>
+            <div class="input-box">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter Email" required>
+            </div>
+            <div class="input-box">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter Password" required>
+            </div>
+            <div class="input-box">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+            </div>
+            <button type="submit">Sign Up</button>
+            <p id="error-message" style="color:red;"></p>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport Business</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">DDR Transport PVT.LTD</div>
+            <ul>
+                <li><a href="home"> home </a><li></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    <body>
+        
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Reliable Transport Solutions for All Your Needs</h1>
+            <p>We offer the best transport services for your business or personal needs.</p>
+            <a href="#services" class="btn">Our Services</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are a trusted transport company providing services tours and bus services Our mission is to passenger transport  to savely and carefully</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <h3>Corporate Travel</h3>
+                <p>Professional travel services for your business.</p>
+            </div>
+            <div class="service-item">
+                <h3>Private Tours</h3>
+                <p>Custom tours for families, friends, and groups.</p>
+            </div>
+            <div class="service-item">
+                <h3>Logistics</h3>
+                <p>Safe and timely transportation of goods.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Section -->
+    <section id="fleet" class="fleet">
+        <h2>Our Fleet</h2>
+        <div class="fleet-grid">
+            <div class="fleet-item">
+                <img src="bus.jpg" alt="Bus">
+                <h3>Luxury Buses</h3>
+                <p>Comfortable and spacious buses for long journeys.</p>
+            </div>
+            <div class="fleet-item">
+                <img src="van.jpg" alt="Van">
+                <h3>Minivans</h3>
+                <p>Perfect for small group travel and events.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="Phno">Number:</label>
+            <input type="Phno" id="phno" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024  DDR Transport Co. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
